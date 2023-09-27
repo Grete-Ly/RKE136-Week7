@@ -13,7 +13,7 @@ let dateInStorage = localStorage.getItem('releaseDate');
 if(titleInStorage && imageUrlInStorage && dateInStorage) {
     movieTitleToDisplay.textContent = titleInStorage;
     container.style.backgroundImage = `linear-gradient(rgba(57, 57, 110, 0.495), rgba(55, 41, 41, 0.505)),
-    url('${imageUrlInStorage})`;
+    url('${imageUrlInStorage}')`;
     movieDateToDisplay.textContent = dateInStorage;
 }
 
